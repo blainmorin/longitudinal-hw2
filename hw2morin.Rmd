@@ -262,6 +262,7 @@ Lastly, the observed vs individual prediction vs marginal prediction trajectorie
 In all instances, the mixed effects models predictions are closer to the observed predictions for the individual than the marginal model. We also see that including a random slope seems to improve the fit. Among the models with random slopes, it is difficult to determine visually which fits better (they look similar). The plots for the models with random slopes look similar because most of the variation is captured by the random intercepts. For example, here are the random parameters for model 4:
 
 ![](random.PNG)
+\ 
 
 We see that the variance absorbed by the constant is .681, which is much larger than the variance in the slope terms. 
 
